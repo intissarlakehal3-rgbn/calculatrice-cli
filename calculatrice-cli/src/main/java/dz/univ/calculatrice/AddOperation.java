@@ -1,8 +1,10 @@
 package dz.univ.calculatrice;
-
-public class AddOperation implements Operation {
-    @Override
-    public double calculer(double a, double b) {
-        return a + b;
-    }
+/**
+Classe représentant l'opération d'addition.
+*/
+public final class AddOperation implements Operation {
+@Override
+public double calculer(final double a, final double b) {
+return a + b;
+}
 }

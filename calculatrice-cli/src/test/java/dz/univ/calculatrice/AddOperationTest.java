@@ -1,10 +1,7 @@
 package dz.univ.calculatrice;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 public class AddOperationTest {
-
 @Test
 public void testCalculer() {
     Operation op = new AddOperation();
